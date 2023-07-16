@@ -19,6 +19,7 @@ body {
 .background-primary {
     background-color: #FD6E0A;
 }
+
 .section-title {
     color: #181818;
     font-size: 35px;
@@ -128,13 +129,40 @@ nav a {
 }
 
 /* main style  */
+main {
+    margin: 100px;
+}
 
 /* about me style  */
-.about {
+.about,.what-i-do{
     text-align: center;
     padding: 100px;
-    margin: 100px;
+
+}
+.about {
     border-radius: 10px;
     background-color: #FFF8F3;
+}
+
+.about-info-containers {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-title {
+    margin: 0 auto;
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
+}
+.info-details{
+    margin: 5px auto ;
+    color: #757575;
+    font-size: 20px;
+    font-weight: 400;
 }
 
