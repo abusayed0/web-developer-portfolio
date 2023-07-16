@@ -79,9 +79,10 @@ nav a {
 /* header section related style  */
 .header {
     background-color: #FFF8F3;
-    background-image: url(../images/header_bg.png);
-    background-repeat: no-repeat;
-    background-position: bottom right;
+    background-image: url(../images/header_bg.png),url("../images/developer.png");
+    background-repeat: no-repeat,no-repeat;
+    background-position: bottom right,center left;
+    background-size: auto,auto 80%;
 }
 
 .banner {
@@ -260,6 +261,7 @@ footer{
 }
 #name,#email,#message{
     padding: 20px 10px;
+    border: 0;
     border-radius: 5px;
     display: block;
     margin: 20px 0;
@@ -275,3 +277,8 @@ textarea{
     align-items: center;
 }
 
+#icon-download,#icon-call{
+    height: 24px;
+    width: 24px;
+    margin-right: 5px;
+}
