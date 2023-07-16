@@ -1,6 +1,7 @@
 /* shared style  */
 body {
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
 }
 
 .btn-primary {
@@ -10,8 +11,7 @@ body {
     border: 0;
     border-radius: 5px;
     padding: 15px 30px;
-    display: block;
-    margin: auto;
+   
 }
 
 .color-primary {
@@ -211,7 +211,7 @@ main >section{
 }
 
 .education-item,.experience-item{
-    border: 1px solid;
+    /* border: 1px solid; */
     margin: 20px 0;
 
 }
@@ -231,5 +231,47 @@ main >section{
     color: #757575;
     font-weight: 400;
     font-size: 16px;
+}
+
+.download-cv{
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* footer section style  */
+footer{
+    background-color: #FFF8F3;
+    padding: 80px 100px;
+    display: flex;
+    gap: 80px;
+}
+.footer-text,.contact-form{
+    width: 50%;
+}
+.footer-text-title,.contact-form-title{
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+}
+.footer-text-details{
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+}
+#name,#email,#message{
+    padding: 20px 10px;
+    border-radius: 5px;
+    display: block;
+    margin: 20px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+textarea{
+    resize: none;
+}
+.social-link{
+    display: flex;
+    gap: 20px;
+    align-items: center;
 }
 
